@@ -1,0 +1,21 @@
+swagger: "2.0"
+info: {}
+paths: {}
+definitions:
+  models.Comment:
+    title: Comment
+    type: object
+    properties:
+      Context:
+        type: string
+      CreatedAt:
+        type: string
+        format: datetime
+      Id:
+        type: integer
+        format: int64
+      Name:
+        type: string
+      UpdatedAt:
+        type: string
+        format: datetime
